@@ -1,4 +1,4 @@
-
+"use client"
 import dynamic from 'next/dynamic'
 const Cotizador = dynamic(() => import('../components/Cotizador'), { ssr:false })
 
