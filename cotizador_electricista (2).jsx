@@ -26,9 +26,10 @@ Este repositorio contiene un proyecto **Next.js** listo para desplegar en Vercel
 
 ## package.json
 
+  
 ```json
 {
-  "name": "electricista-nextjs",
+  "name": "electricista-web",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -38,13 +39,17 @@ Este repositorio contiene un proyecto **Next.js** listo para desplegar en Vercel
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.5.6",
+    "next": "14.1.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "nodemailer": "6.9.4",
-    "mongodb": "5.8.0"
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
+    "tailwindcss": "3.3.3"
   }
 }
+
 ```
 
 > Nota: las versiones son recomendadas; Vercel instalará automáticamente. Podes ajustar si querés.
