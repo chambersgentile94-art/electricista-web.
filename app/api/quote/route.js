@@ -1,4 +1,4 @@
-```js
+
 import nodemailer from 'nodemailer'
 import { MongoClient } from 'mongodb'
 
@@ -48,4 +48,4 @@ export async function POST(req){
     return new Response(JSON.stringify({ error: e.message }), { status:500 })
   }
 }
-```
+
