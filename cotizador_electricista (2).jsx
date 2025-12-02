@@ -315,24 +315,5 @@ TO_EMAIL=tuemail@dominio.com
 
 ---
 
-## Cómo desplegar en Vercel (pasos)
 
-1. Crear cuenta en vercel.com y loguearte.
-2. Crear un nuevo proyecto -> "Importar desde Git" -> subí tu repo (GitHub/GitLab/Bitbucket) o el ZIP.
-3. En Settings > Environment Variables, agrega las variables de `.env.example` que quieras usar (MONGODB_URI y/o SMTP_*).
-4. Deploy. Vercel detecta Next.js y hace build automáticamente. El dominio será `your-project.vercel.app`.
 
----
-
-## Qué hago yo ahora (puedo entregarte todo listo)
-
-Puedo:
-
-1. Preparar el ZIP del proyecto con todos los archivos y las imágenes de ejemplo (lista para subir a GitHub / Vercel).  
-2. Conectarlo a tu GitHub y realizar el primer deploy (si me das acceso a tu cuenta de GitHub o me compartís un repositorio).  
-3. Configurar variables de entorno en Vercel (si me shares los valores) o indicarte exactamente dónde pegarlas.  
-4. Configurar MongoDB Atlas y una cuenta SMTP (te doy los comandos y pasos; si querés, puedo guiarte paso a paso). 
-
-Decime qué querés que haga ahora (te recomiendo: 1) Te genero el ZIP y te paso el link de descarga; 2) Te doy la guía mínima para crear la cuenta en Vercel y desplegar; 3) Si querés, te explico cómo crear una base de datos en MongoDB Atlas y agregar MONGODB_URI).  
-
-Si preferís, armamos todo y dejás solo las variables de entorno en Vercel (recomendado).
