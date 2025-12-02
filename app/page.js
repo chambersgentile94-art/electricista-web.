@@ -1,4 +1,4 @@
-```jsx
+
 import dynamic from 'next/dynamic'
 const Cotizador = dynamic(() => import('../components/Cotizador'), { ssr:false })
 
@@ -86,4 +86,3 @@ export default function Page(){
     </>
   )
 }
-```
